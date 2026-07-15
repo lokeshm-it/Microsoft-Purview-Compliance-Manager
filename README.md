@@ -553,3 +553,8 @@ Documented as part of an ongoing series of enterprise Microsoft 365 security and
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+
+## Disclaimer
+
+Note: This repository documents a Microsoft Purview Compliance Manager implementation for educational and portfolio purposes. Microsoft, Microsoft Purview, Microsoft 365, Microsoft Intune, Microsoft Entra, Microsoft Defender, and related marks are trademarks of the Microsoft group of companies. This project is not affiliated with, endorsed by, or sponsored by Microsoft Corporation. All product screenshots are used to illustrate configuration and documentation only.
