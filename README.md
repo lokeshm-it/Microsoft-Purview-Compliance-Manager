@@ -127,7 +127,7 @@ This shared-responsibility structure is the architectural core of Compliance Man
 
 ## Compliance Manager Overview
 
-![Compliance Manager Overview — 59% compliance score](screenshots/01-compliance-manager-overview-59-percent.png)
+![Compliance Manager Overview — 59% compliance score](images/01-compliance-manager-overview-59-percent.png)
 
 The **Overview** page is the landing surface for Compliance Manager and the single most important dashboard for compliance stakeholders. It answers three questions at a glance: *Where do we stand? What is Microsoft responsible for? What should we do next?*
 
@@ -188,7 +188,7 @@ In this implementation: **946.39 + 12,408 = 13,354.39** achieved out of **9,915 
 
 ## Regulatory Frameworks
 
-![Regulations page listing 391 available regulation templates](screenshots/06-regulations-page-391-items.png)
+![Regulations page listing 391 available regulation templates](images/06-regulations-page-391-items.png)
 
 The **Regulations** page is the catalog from which every assessment is built. In this tenant, the catalog contains **391 items**, organized into logical groupings:
 
@@ -216,7 +216,7 @@ Each regulation entry tracks **status** (Ready to use), **availability** (Pre-De
 
 ## Assessments
 
-![Assessments list showing AI Baseline and Data Protection Baseline for Microsoft 365](screenshots/02-assessments-list-ai-baseline-data-protection.png)
+![Assessments list showing AI Baseline and Data Protection Baseline for Microsoft 365](images/02-assessments-list-ai-baseline-data-protection.png)
 
 An **assessment** is a regulation template activated against the tenant and populated with the improvement actions required to satisfy that regulation's controls. This tenant currently runs two active assessments:
 
@@ -235,7 +235,7 @@ An **assessment** is a regulation template activated against the tenant and popu
 
 ### Assessment Detail — Data Protection Baseline for Microsoft 365
 
-![Data Protection Baseline for Microsoft 365 assessment detail page](screenshots/03-data-protection-baseline-assessment-detail.png)
+![Data Protection Baseline for Microsoft 365 assessment detail page](images/03-data-protection-baseline-assessment-detail.png)
 
 Drilling into the **Data Protection Baseline for Microsoft 365** assessment reveals the operational detail behind the 61% progress figure:
 
@@ -256,7 +256,7 @@ Drilling into the **Data Protection Baseline for Microsoft 365** assessment reve
 
 ## Improvement Actions
 
-![Improvement actions list with 500 items](screenshots/04-improvement-actions-list-500-items.png)
+![Improvement actions list with 500 items](images/04-improvement-actions-list-500-items.png)
 
 Improvement actions are the atomic unit of work in Compliance Manager. This tenant tracks **500 improvement action items**, each carrying metadata across **Point value, Service, Regulations, Group, Solutions, Assessments, Categories, Test status, Action type, Assigned to,** and **Testing type**.
 
@@ -279,7 +279,7 @@ Improvement actions are the atomic unit of work in Compliance Manager. This tena
 
 ### Individual Improvement Action — Device Compliance Reporting
 
-![Generate and review reports for device compliance action detail](screenshots/05-generate-review-reports-device-compliance.png)
+![Generate and review reports for device compliance action detail](images/05-generate-review-reports-device-compliance.png)
 
 The **"Generate and review reports for device compliance"** action illustrates the structure of every improvement action record:
 
@@ -344,7 +344,7 @@ Customer-managed controls are the organization's own responsibility — configur
 
 ## ISO/IEC 27001 Mapping
 
-![ISO/IEC 27001:2013 all controls view](screenshots/07-iso-iec-27001-2013-all-controls.png)
+![ISO/IEC 27001:2013 all controls view](images/07-iso-iec-27001-2013-all-controls.png)
 
 Selecting **ISO/IEC 27001:2013** from the Regulations catalog opens a dedicated control-mapping view. This standard — the international requirements specification for establishing, implementing, maintaining, and continuously improving an **Information Security Management System (ISMS)** — is represented in this tenant with:
 
@@ -361,7 +361,7 @@ Selecting **ISO/IEC 27001:2013** from the Regulations catalog opens a dedicated 
 
 ### ISO/IEC 27001 — Microsoft Actions
 
-![ISO/IEC 27001:2013 Microsoft actions view](screenshots/08-iso-iec-27001-2013-microsoft-actions.png)
+![ISO/IEC 27001:2013 Microsoft actions view](images/08-iso-iec-27001-2013-microsoft-actions.png)
 
 The **All actions → Microsoft actions** tab under the same ISO/IEC 27001:2013 regulation reveals **347 items** — the specific Microsoft/Azure control-framework actions that satisfy the standard, each carrying an **Azure Control Framework ID** (e.g., `ACF1000` — Access Control Policy And Procedures - Creating Policy, `ACF1027` — Access Enforcement, `ACF1034` — Least Privilege, `ACF1063` — Remote Access | Managed Access Control Points).
 
@@ -522,7 +522,7 @@ The combination of assessments (Data Protection Baseline, AI Baseline), a 500-it
 ├── CONTRIBUTING.md
 ├── docs/
 │   └── implementation-guide.md
-├── screenshots/
+├── images/
 │   ├── 01-compliance-manager-overview-59-percent.png
 │   ├── 02-assessments-list-ai-baseline-data-protection.png
 │   ├── 03-data-protection-baseline-assessment-detail.png
